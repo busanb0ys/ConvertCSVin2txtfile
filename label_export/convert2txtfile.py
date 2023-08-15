@@ -2,8 +2,8 @@ import csv
 import json
 
 # Read the CSV file and create a text file for writing
-csv_file_path = r"C:\Users\Admin\Downloads\label_export\Input_file\project-3-at-2023-08-15-21-31-4b09dbe1.csv"  # Replace with the actual path
-txt_file_path = r"C:\Users\Admin\Downloads\label_export\Output_file\output_data.txt"
+csv_file_path = r"path_to_your_input_csv_file.csv"  # Replace with the actual path
+txt_file_path = "output_data.txt"
 
 with open(csv_file_path, "r", newline="", encoding="utf-8") as csv_file:
     csv_reader = csv.DictReader(csv_file)
