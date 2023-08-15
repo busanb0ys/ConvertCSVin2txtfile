@@ -3,7 +3,7 @@
 
 The instructor
 
-1.Import for Label studio as CSV file ******
+1.Import from Label studio as CSV file ******
 
 2.Open Python file and Paste CSV path file in csv_file_path = r"path_to_your_input_csv_file.csv"
 
